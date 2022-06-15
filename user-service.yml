@@ -10,7 +10,7 @@ spring:
 #   secret: user_token_native_userservice
 
 gateway:
-  ip: 172.18.0.7
+  ip: 172.18.0.6
 
 order_service:
   url: http://ORDER-SERVICE/order-service/%s/orders
