@@ -13,3 +13,13 @@ logging:
   level:
     org.hibernate.type: trace
     org.springframework.jdbc.core: trace
+
+mosinsa:
+  topic:
+    order: mosinsa-order
+      rollback: mosinsa-order-rollback
+      commit: mosinsa-order-commit
+    order-cancel: mosinsa-order-cancel
+
+
+        
