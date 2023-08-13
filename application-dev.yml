@@ -16,9 +16,8 @@ logging:
 
 mosinsa:
   topic:
-    order: mosinsa-order
-    order-cancel: mosinsa-order-cancel
+    order: 
+      request: mosinsa-order
+      cancel: mosinsa-order-cancel
       commit: mosinsa-order-commit
       rollback: mosinsa-order-rollback
-
-        
