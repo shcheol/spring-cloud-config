@@ -18,9 +18,7 @@ mosinsa:
   topic:
     order: mosinsa-order
     order-cancel: mosinsa-order-cancel
-      rollback: mosinsa-order-rollback
       commit: mosinsa-order-commit
-
-
+      rollback: mosinsa-order-rollback
 
         
