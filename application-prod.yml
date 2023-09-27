@@ -1,0 +1,23 @@
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://152.67.205.195:8761/eureka
+
+# log level Setting
+logging:
+  level:
+    org.hibernate.type: trace
+    org.springframework.jdbc.core: trace
+
+mosinsa:
+  topic:
+    order: 
+      request: mosinsa-order
+      cancel: mosinsa-order-cancel
+      commit: mosinsa-order-commit
+      rollback: mosinsa-order-rollback
