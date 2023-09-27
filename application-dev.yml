@@ -21,3 +21,13 @@ mosinsa:
       cancel: mosinsa-order-cancel
       commit: mosinsa-order-commit
       rollback: mosinsa-order-rollback
+
+
+token:
+  access:
+    secret: access_secret
+    expiration: 3600000
+#    expiration: 10000
+  refresh:
+    secret: refresh_secret
+    expiration: 1209600000
