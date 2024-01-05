@@ -21,6 +21,8 @@ mosinsa:
       cancel: mosinsa-order-cancel
       commit: mosinsa-order-commit
       rollback: mosinsa-order-rollback
+    customer:
+      create: mosinsa-customer-create
 feignclient:
   url:
     customer: 152.67.205.195:8000/customer-service
