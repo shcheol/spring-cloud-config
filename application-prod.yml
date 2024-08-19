@@ -14,6 +14,7 @@ logging:
     org.hibernate.type: trace
     org.springframework.jdbc.core: trace
 
+
 mosinsa:
   topic:
     order: 
@@ -21,11 +22,16 @@ mosinsa:
       cancel: mosinsa-order-cancel
       commit: mosinsa-order-commit
       rollback: mosinsa-order-rollback
+    customer:
+      create: mosinsa-customer-create
+    promotion:
+      participate: mosinsa-promotion-participate  
 feignclient:
   url:
     customer: 152.67.205.195:8000/customer-service
     order: 152.67.205.195:8000/order-service
     product: 152.67.205.195:8000/product-service
+    coupon: 152.67.205.195:8000/coupon-service
 
 token:
   access:

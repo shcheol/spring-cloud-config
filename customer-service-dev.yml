@@ -14,6 +14,7 @@ logging:
     org.hibernate.type: trace
     org.springframework.jdbc.core: trace
 
+
 mosinsa:
   topic:
     order: 
@@ -23,6 +24,8 @@ mosinsa:
       rollback: mosinsa-order-rollback
     customer:
       create: mosinsa-customer-create
+    promotion:
+      participate: mosinsa-promotion-participate  
 
 
 token:
