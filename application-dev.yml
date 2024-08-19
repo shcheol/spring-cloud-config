@@ -28,9 +28,10 @@ mosinsa:
       participate: mosinsa-promotion-participate  
 feignclient:
   url:
-    customer: localhost:8000/customer-service
-    order: localhost:8000/order-service
-    product: localhost:8000/product-service
+    customer: 127.0.0.1:8000/customer-service
+    order: 127.0.0.1:8000/order-service
+    product: 127.0.0.1:8000/product-service
+    coupon: 127.0.0.1:8000/coupon-service
 
 
 token:
