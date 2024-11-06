@@ -26,13 +26,7 @@ mosinsa:
       create: mosinsa-customer-create
     promotion:
       participate: mosinsa-promotion-participate  
-feignclient:
-  url:
-    customer: 127.0.0.1:8000/customer-service
-    order: 127.0.0.1:8000/order-service
-    product: 127.0.0.1:8000/product-service
-    coupon: 127.0.0.1:8000/coupon-service
-
+  base-url: 127.0.0.1:8000
 
 token:
   access:

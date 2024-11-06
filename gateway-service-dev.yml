@@ -26,7 +26,7 @@ mosinsa:
       create: mosinsa-customer-create
     promotion:
       participate: mosinsa-promotion-participate  
-
+  base-url: 127.0.0.1:8000
 feignclient:
   url:
     customer: 127.0.0.1:8000/customer-service
