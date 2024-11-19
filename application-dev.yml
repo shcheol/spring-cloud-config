@@ -20,12 +20,13 @@ mosinsa:
     order: 
       create: mosinsa-order-create
       cancel: mosinsa-order-cancel
-      commit: mosinsa-order-commit
-      rollback: mosinsa-order-rollback
     customer:
       create: mosinsa-customer-create
     promotion:
-      participate: mosinsa-promotion-participate  
+      participate: mosinsa-promotion-participate
+    reaction:
+      react: mosinsa-reaction-react
+      cancel: mosinsa-reaction-cancel
   base-url: "http://127.0.0.1:8000"
 
 token:
